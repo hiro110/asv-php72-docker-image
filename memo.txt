@@ -1,0 +1,12 @@
+# build
+docker build --tag hiroakiito/asv-custom-php72:0.3.0 .
+
+# push
+docker push hiroakiito/asv-custom-php72:0.3.0
+
+# memo
+* hiroakiito/asv-custom-php72:0.3.0
+ベース元（git clone元）を以下に変更し、カスタマイズ
+https://github.com/Azure-App-Service/php/tree/master/7.2.11-apache
+
+
